@@ -1,0 +1,7 @@
+{
+  "name": "Our Eternal Love Story",
+  "description": "A beautiful, romantic portal for Kevin and Peri featuring a love counter, proximity radar, and digital scrolls for wishes.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
