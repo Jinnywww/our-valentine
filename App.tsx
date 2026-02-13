@@ -1,13 +1,13 @@
-
 import React, { useState } from 'react';
 import { Settings, Heart } from 'lucide-react';
-import FallingPetals from './components/FallingPetals';
-import LoveCounter from './components/LoveCounter';
-import DistanceTracker from './components/DistanceTracker';
-import MomentTimeline from './components/MomentTimeline';
-import WishList from './components/WishList';
-import EditModal from './components/EditModal';
-import BottomBar from './components/BottomBar';
+// Updated paths to match Capitalized Folder/File names
+import FallingPetals from './Components/FallingPetals';
+import LoveCounter from './Components/LoveCounter';
+import DistanceTracker from './Components/DistanceTracker';
+import MomentTimeline from './Components/MomentTimeline';
+import WishList from './Components/WishList';
+import EditModal from './Components/EditModal';
+import BottomBar from './Components/BottomBar';
 
 const App: React.FC = () => {
   const [isEditOpen, setIsEditOpen] = useState(false);
